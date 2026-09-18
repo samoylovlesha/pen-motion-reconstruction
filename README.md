@@ -1,48 +1,30 @@
-# Title
+# Восстановление движения пера по скелетному графу рукописного текста
 
-<!-- Change `kisnikser/m1p-template` to `intsystems/your-repository`-->
-[![License](https://badgen.net/github/license/kisnikser/m1p-template?color=green)](https://github.com/kisnikser/m1p-template/blob/main/LICENSE)
-[![GitHub Contributors](https://img.shields.io/github/contributors/kisnikser/m1p-template)](https://github.com/kisnikser/m1p-template/graphs/contributors)
-[![GitHub Issues](https://img.shields.io/github/issues-closed/kisnikser/m1p-template.svg?color=0088ff)](https://github.com/kisnikser/m1p-template/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr-closed/kisnikser/m1p-template.svg?color=7f29d6)](https://github.com/kisnikser/m1p-template/pulls)
+[![License](https://badgen.net/github/license/samoylovlesha/pen-motion-reconstruction?color=green)](LICENSE)
 
 <table>
-    <tr>
-        <td align="left"> <b> Author </b> </td>
-        <td> Name Surname </td>
-    </tr>
-    <tr>
-        <td align="left"> <b> Consultant </b> </td>
-        <td> Name Surname, PhD/DSc </td>
-    </tr>
-    <tr>
-        <td align="left"> <b> Advisor </b> </td>
-        <td> Name Surname, PhD/DSc </td>
-    </tr>
+  <tr><td><b>Автор</b></td><td>Самойлов Алексей Антонович</td></tr>
+  <tr><td><b>Научный руководитель</b></td><td>Местецкий Леонид Моисеевич, д.т.н., профессор</td></tr>
 </table>
 
-## Assets
+Курсовая работа, факультет вычислительной математики и кибернетики МГУ имени М. В. Ломоносова, 2026 год.
 
-- [LinkReview](LINKREVIEW.md)
-- [Code](code)
-- [Paper](paper/main.pdf)
-- [Slides](slides/main.pdf)
+## Материалы
 
-## Abstract
+- [Шаблон статьи](paper/main.tex)
+- [Код](code)
+- [Слайды](slides)
 
-TODO
+PDF-файлы в папках paper и slides унаследованы от шаблона и не являются материалами этой курсовой работы.
 
-## Citation
+## Аннотация
 
-If you find our work helpful, please cite us.
-```BibTeX
-@article{citekey,
-    title={Title},
-    author={Name Surname, Name Surname (consultant), Name Surname (advisor)},
-    year={2025}
-}
-```
+Рассматривается восстановление порядка движения пера по скелетному графу рукописного текста. Вершины графа содержат координаты и радиусы вписанных окружностей, а рёбра задают центральные линии штрихов. Метод ищет последовательность направленных рёбер с учётом гладкости переходов, покрытия скелета, повторов, направления, скрытых скачков и отрывов пера. В эксперименте порядок хорошо восстанавливается на гладких связных фрагментах и овальных элементах; сложность представляют плотные неоднозначные зоны и буквы типа k и x.
 
-## Licence
+## Цитирование
 
-Our project is MIT licensed. See [LICENSE](LICENSE) for details.
+Самойлов А. А. Восстановление движения пера по скелетному графу рукописного текста. Курсовая работа. МГУ имени М. В. Ломоносова, 2026.
+
+## Лицензия
+
+[MIT](LICENSE).
